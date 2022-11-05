@@ -1,4 +1,5 @@
-a=int(input("введите число: "))
-g=input("введите знак: ")
+a=int(input("введите сторону квадрата: "))
 for i in range(a):
-  print(end=g)пррррррррррррррр
+  for j in range(a):
+    print("*",end=" ")
+  print()
